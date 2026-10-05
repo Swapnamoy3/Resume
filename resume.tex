@@ -1,0 +1,177 @@
+%-------------------------
+% Resume in LaTeX - Swapnamoy Garai
+% Tailored for Agentic AI / AI Systems Engineering
+% Guaranteed 1-Page Fit & 100% ATS-Compliant Single-Column Format
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Tight margins for perfect 1-page fit
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=\textbullet]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Swapnamoy Garai} \\ \vspace{2pt}
+    \small +91 6289781733 $|$ 
+    \href{mailto:garaiswap27@gmail.com}{\underline{garaiswap27@gmail.com}} $|$ 
+    \href{https://github.com/Swapnamoy3}{\underline{github.com/Swapnamoy3}} $|$ 
+    \href{https://www.linkedin.com/in/swapnamoygarai}{\underline{LinkedIn}} $|$ 
+    Bengaluru, India
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{
+Agentic AI and Backend Systems Engineer pursuing B.Tech in CSE at Jadavpur University, currently interning at Quantiphi Analytics. Proven expertise in developing \textbf{Model Context Protocol (MCP)} tool execution engines, \textbf{autonomous coding agents} with reflection/self-correction loops, and \textbf{AST-driven execution sandboxes}. Proficient in high-concurrency microservices in \textbf{Python} and \textbf{Go}, distributed locking, and resilient API architectures.
+}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Agentic AI \& LLMs}{: \textbf{Model Context Protocol (MCP)}, Autonomous Agent Loops, \textbf{AST Security Scanners}, Self-Correction \& Reflection, Tool Calling, \textbf{Semantic Caching}, Claude API, OpenAI API} \\
+     \textbf{Languages}{: \textbf{Python}, \textbf{Go (Golang)}, \textbf{C++}, \textbf{JavaScript/TypeScript}, SQL, Rust, C} \\
+     \textbf{Backend \& Cloud Systems}{: \textbf{FastAPI}, \textbf{Docker}, \textbf{gRPC}, \textbf{Protobuf}, \textbf{Redis}, PostgreSQL, Token Bucket Rate Limiting, Circuit Breakers, Distributed Locking} \\
+     \textbf{Developer Tools \& Practices}{: Git, GitHub CLI, Linux/WSL, CI/CD Pipelines, Test-Driven Development (\textbf{TDD}), Pytest, k6}
+    }}
+ \end{itemize}
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Quantiphi Analytics}{Bengaluru, India}
+      {Software Developer Intern}{Jun 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Engineered production \textbf{FastAPI} REST microservices using contract-first \textbf{OpenAPI} specifications backed by \textbf{PostgreSQL} and \textbf{Redis}.}
+        \resumeItem{Applied \textbf{Test-Driven Development (TDD)} authoring comprehensive unit and integration suites to sustain an \textbf{85\%+} CI/CD pass rate.}
+        \resumeItem{Designed dimensional star schemas and optimized transformation SQL with window functions for enterprise data pipelines.}
+        \resumeItem{Configured automated PR gating checks and containerized workflows to ensure code quality and deployment stability.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Crispat}{Remote}
+      {Full Stack Developer Intern}{Jun 2024 -- Sep 2024}
+      \resumeItemListStart
+        \resumeItem{Developed full-stack features with \textbf{React.js}, \textbf{Node.js}, and \textbf{Express}, utilizing \textbf{Redis} for real-time state tracking.}
+        \resumeItem{Built a scalable asynchronous multipart file pipeline, reducing research document upload latency by \textbf{50\%}.}
+        \resumeItem{Created interactive connection graph visualizations with \textbf{React Flow} and \textbf{D3.js}, enhancing user engagement by \textbf{40\%}.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Featured Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Py-Sandbox-Agent} $|$ \href{https://github.com/Swapnamoy3/Py-sandbox-agent}{\underline{GitHub}} $|$ \emph{Autonomous Coding Agent \& Isolated Sandbox}}{Python, Docker, AST, FastAPI}
+          \resumeItemListStart
+            \resumeItem{Engineered an autonomous coding agent with a \textbf{reflection/self-correction FSM loop} that parses test tracebacks and iteratively refines generated code up to \texttt{max\_retries}.}
+            \resumeItem{Implemented an \textbf{AST static security scanner} enforcing default-deny import filtering (\texttt{os}, \texttt{subprocess}), blocking unsafe builtins (\texttt{eval}, \texttt{exec}), and preventing dunder-attribute escapes prior to execution.}
+            \resumeItem{Enforced multi-tenant container isolation via network-gapped (\texttt{network=none}), read-only root, and \textbf{256MB memory caps} in Docker, governed by a \textbf{100-slot concurrency pool} with HTTP 503 backpressure.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Agentexec Engine} $|$ \href{https://github.com/Swapnamoy3/Agentexec}{\underline{GitHub}} $|$ \emph{Asynchronous MCP Tool-Execution Engine}}{Go (Golang), gRPC, Protobuf, Redis}
+          \resumeItemListStart
+            \resumeItem{Architected a concurrent Go worker engine executing \textbf{Model Context Protocol (MCP)} tool calls with \textbf{distributed locking}, exponential backoff retry (50ms--1s), and \textbf{atomic idempotency reservation}.}
+            \resumeItem{Implemented a per-tool 3-state \textbf{Circuit Breaker} (Closed/Open/Half-Open) and an in-memory \textbf{semantic cache} with TTL and canonicalized key hashing to eliminate redundant tool invocations.}
+            \resumeItem{Enforced hardware resource bounds via POSIX \texttt{ulimit} memory ceilings and process-group \texttt{SIGKILL} management to protect host workers from runaway executions.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Codeforces Problem Recommender} $|$ \href{https://github.com/Swapnamoy3/Codeforces-recommender}{\underline{GitHub}} $|$ \emph{Browser Extension \& Scalable State Engine}}{JavaScript, Chrome/Web APIs}
+          \resumeItemListStart
+            \resumeItem{Engineered a competitive programming browser extension using clean \textbf{OOP design patterns} and decoupled background service workers.}
+            \resumeItem{Built a persistent multi-problem timer system using \textbf{browser.alarms}, achieving \textbf{80\% higher accuracy} than standard Date-object polling.}
+            \resumeItem{Implemented smart client-side \textbf{caching} for Codeforces API responses, yielding sub-millisecond (near 0ms) subsequent load times.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Jadavpur University}{Kolkata, India}
+      {B.Tech in Computer Science \& Engineering \textbf{(CGPA: 8.4 / 10.0)}}{Nov 2022 -- June 2026}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Honors \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Competitive Programming}{: Solved \textbf{800+ LeetCode problems} (Peak Rating: \textbf{2000}, Best Contest Rank: \textbf{208}). Active on Codeforces \& AtCoder.} \\
+     \textbf{Standardized Exams}{: \textbf{JEE Advanced AIR 5576} $|$ \textbf{WBJEE Rank 207} (Top 0.2\% among 100,000+ candidates).} \\
+     \textbf{Certification}{: \textbf{Claude Certified Developer} -- Foundations Certified.}
+    }}
+ \end{itemize}
+
+\end{document}
