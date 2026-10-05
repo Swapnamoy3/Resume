@@ -1,10 +1,10 @@
 %-------------------------
 % Resume in LaTeX - Swapnamoy Garai
-% Tailored for Agentic AI / AI Systems Engineering
-% Guaranteed 1-Page Fit & 100% ATS-Compliant Single-Column Format
+% Tailored for Optum SDE (AI / Cloud / HealthTech)
+% Strict 1-Page Fit & 100% ATS-Compliant Single-Column Format
 %-------------------------
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,9.5pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -19,17 +19,17 @@
 \usepackage{tabularx}
 
 \pagestyle{fancy}
-\fancyhf{}
+\fancyhf{} % clear all header and footer fields
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Tight margins for perfect 1-page fit
-\addtolength{\oddsidemargin}{-0.55in}
-\addtolength{\evensidemargin}{-0.55in}
-\addtolength{\textwidth}{1.1in}
-\addtolength{\topmargin}{-0.65in}
-\addtolength{\textheight}{1.3in}
+% Margins calibrated for strict 1-page fit
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
 
@@ -39,13 +39,13 @@
 
 % Section formatting
 \titleformat{\section}{
-  \vspace{-7pt}\scshape\raggedright\large\bfseries
+  \vspace{-9pt}\scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-2.5pt}}
   }
 }
 
@@ -76,7 +76,7 @@
 
 %----------HEADING----------
 \begin{center}
-    {\Huge \scshape Swapnamoy Garai} \\ \vspace{2pt}
+    {\Huge \scshape Swapnamoy Garai} \\ \vspace{1pt}
     \small +91 6289781733 $|$ 
     \href{mailto:garaiswap27@gmail.com}{\underline{garaiswap27@gmail.com}} $|$ 
     \href{https://github.com/Swapnamoy3}{\underline{github.com/Swapnamoy3}} $|$ 
@@ -87,17 +87,18 @@
 %-----------PROFESSIONAL SUMMARY-----------
 \section{Professional Summary}
 \small{
-Agentic AI and Backend Systems Engineer pursuing B.Tech in CSE at Jadavpur University, currently interning at Quantiphi Analytics. Proven expertise in developing \textbf{Model Context Protocol (MCP)} tool execution engines, \textbf{autonomous coding agents} with reflection/self-correction loops, and \textbf{AST-driven execution sandboxes}. Proficient in high-concurrency microservices in \textbf{Python} and \textbf{Go}, distributed locking, and resilient API architectures.
+Software Development Engineer pursuing B.Tech in CSE at Jadavpur University, interning at Quantiphi Analytics. Proven track record architecting \textbf{cloud-native microservices}, \textbf{clinical healthcare ML pipelines}, and \textbf{Agentic AI/NLP platforms}. Experienced in deploying production ML models (XGBoost, SHAP, BERT/LaBSE), developing high-concurrency APIs in \textbf{Python} and \textbf{Go}, and utilizing GenAI developer tools (Copilot, Claude) to accelerate enterprise software delivery.
 }
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Agentic AI \& LLMs}{: \textbf{Model Context Protocol (MCP)}, Autonomous Agent Loops, \textbf{AST Security Scanners}, Self-Correction \& Reflection, Tool Calling, \textbf{Semantic Caching}, Claude API, OpenAI API} \\
-     \textbf{Languages}{: \textbf{Python}, \textbf{Go (Golang)}, \textbf{C++}, \textbf{JavaScript/TypeScript}, SQL, Rust, C} \\
-     \textbf{Backend \& Cloud Systems}{: \textbf{FastAPI}, \textbf{Docker}, \textbf{gRPC}, \textbf{Protobuf}, \textbf{Redis}, PostgreSQL, Token Bucket Rate Limiting, Circuit Breakers, Distributed Locking} \\
-     \textbf{Developer Tools \& Practices}{: Git, GitHub CLI, Linux/WSL, CI/CD Pipelines, Test-Driven Development (\textbf{TDD}), Pytest, k6}
+     \textbf{Languages}{: \textbf{Python}, \textbf{SQL}, \textbf{Go (Golang)}, \textbf{C++}, \textbf{TypeScript/JavaScript}, C\#, Rust, C} \\
+     \textbf{AI, NLP \& GenAI}{: \textbf{Agentic AI}, \textbf{NLP}, \textbf{LLM Orchestration}, Model Context Protocol (\textbf{MCP}), \textbf{BERT}, \textbf{LaBSE}, Prompt Engineering, Copilot, Claude AI} \\
+     \textbf{Cloud, Systems \& DevOps}{: \textbf{Docker}, \textbf{Kubernetes (K8s)}, \textbf{Azure / Cloud Services}, \textbf{FastAPI}, \textbf{SQL Server / PostgreSQL}, \textbf{Redis}, CI/CD Automation} \\
+     \textbf{ML \& Healthcare Analytics}{: \textbf{XGBoost}, \textbf{SHAP (Explainable AI)}, \textbf{MIMIC-III Clinical Data}, PyTorch, Scikit-Learn, Pandas} \\
+     \textbf{Software Practices}{: \textbf{Test-Driven Development (TDD)}, Microservices, Agile, REST APIs, gRPC, Git, Linux/WSL}
     }}
  \end{itemize}
 
@@ -109,49 +110,49 @@ Agentic AI and Backend Systems Engineer pursuing B.Tech in CSE at Jadavpur Unive
       {Quantiphi Analytics}{Bengaluru, India}
       {Software Developer Intern}{Jun 2026 -- Present}
       \resumeItemListStart
-        \resumeItem{Engineered production \textbf{FastAPI} REST microservices using contract-first \textbf{OpenAPI} specifications backed by \textbf{PostgreSQL} and \textbf{Redis}.}
-        \resumeItem{Applied \textbf{Test-Driven Development (TDD)} authoring comprehensive unit and integration suites to sustain an \textbf{85\%+} CI/CD pass rate.}
+        \resumeItem{Engineered production \textbf{FastAPI REST microservices} following OpenAPI specifications, integrating with \textbf{PostgreSQL} and \textbf{Redis} for reliable cloud-native data processing.}
+        \resumeItem{Implemented \textbf{Test-Driven Development (TDD)} and automated \textbf{CI/CD pipelines}, enforcing code quality gates to maintain an \textbf{85\%+} test suite pass rate.}
         \resumeItem{Designed dimensional star schemas and optimized transformation SQL with window functions for enterprise data pipelines.}
-        \resumeItem{Configured automated PR gating checks and containerized workflows to ensure code quality and deployment stability.}
+        \resumeItem{Leveraged GenAI-assisted tooling (Claude, Copilot) to accelerate feature prototyping and automate integration testing workflows.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Crispat}{Remote}
       {Full Stack Developer Intern}{Jun 2024 -- Sep 2024}
       \resumeItemListStart
-        \resumeItem{Developed full-stack features with \textbf{React.js}, \textbf{Node.js}, and \textbf{Express}, utilizing \textbf{Redis} for real-time state tracking.}
-        \resumeItem{Built a scalable asynchronous multipart file pipeline, reducing research document upload latency by \textbf{50\%}.}
-        \resumeItem{Created interactive connection graph visualizations with \textbf{React Flow} and \textbf{D3.js}, enhancing user engagement by \textbf{40\%}.}
+        \resumeItem{Built full-stack web applications with \textbf{React.js}, \textbf{Node.js}, and \textbf{Express}, utilizing \textbf{Redis} for real-time state synchronization.}
+        \resumeItem{Architected a scalable multipart file-handling service, slashing document upload latency by \textbf{50\%} through concurrent streaming.}
+        \resumeItem{Implemented interactive connection graph visualizations with \textbf{React Flow} and \textbf{D3.js}, enhancing user engagement by \textbf{40\%}.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
-\section{Featured Projects}
+\section{Key AI \& Software Engineering Projects}
     \resumeSubHeadingListStart
 
       \resumeProjectHeading
-          {\textbf{Py-Sandbox-Agent} $|$ \href{https://github.com/Swapnamoy3/Py-sandbox-agent}{\underline{GitHub}} $|$ \emph{Autonomous Coding Agent \& Isolated Sandbox}}{Python, Docker, AST, FastAPI}
+          {\textbf{Clinical Length of Stay (LOS) AI Platform} $|$ \href{https://github.com/Swapnamoy3/final-year-Poject-}{\underline{GitHub}} $|$ \emph{Healthcare AI Engine}}{Python, XGBoost, SHAP, FastAPI, Next.js}
           \resumeItemListStart
-            \resumeItem{Engineered an autonomous coding agent with a \textbf{reflection/self-correction FSM loop} that parses test tracebacks and iteratively refines generated code up to \texttt{max\_retries}.}
-            \resumeItem{Implemented an \textbf{AST static security scanner} enforcing default-deny import filtering (\texttt{os}, \texttt{subprocess}), blocking unsafe builtins (\texttt{eval}, \texttt{exec}), and preventing dunder-attribute escapes prior to execution.}
-            \resumeItem{Enforced multi-tenant container isolation via network-gapped (\texttt{network=none}), read-only root, and \textbf{256MB memory caps} in Docker, governed by a \textbf{100-slot concurrency pool} with HTTP 503 backpressure.}
+            \resumeItem{Developed an end-to-end \textbf{clinical AI prediction platform} forecasting patient hospital Length of Stay (LOS) across \textbf{10,000+ patient records} from the MIMIC-III database.}
+            \resumeItem{Engineered an \textbf{XGBoost ML pipeline} coupled with \textbf{SHAP explainability}, providing clinicians transparent feature attribution for critical lab markers (Glucose, WBC, platelets).}
+            \resumeItem{Built cloud-ready \textbf{FastAPI} microservices serving real-time predictions and patient-flow telemetry to a reactive Next.js dashboard evaluated on a 20\% held-out test split.}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{Agentexec Engine} $|$ \href{https://github.com/Swapnamoy3/Agentexec}{\underline{GitHub}} $|$ \emph{Asynchronous MCP Tool-Execution Engine}}{Go (Golang), gRPC, Protobuf, Redis}
+          {\textbf{Multilingual NLP Detection Platform} $|$ \href{https://github.com/Swapnamoy3}{\underline{GitHub}} $|$ \emph{Deep Learning \& NLP Pipeline}}{Python, PyTorch, BERT, LaBSE}
           \resumeItemListStart
-            \resumeItem{Architected a concurrent Go worker engine executing \textbf{Model Context Protocol (MCP)} tool calls with \textbf{distributed locking}, exponential backoff retry (50ms--1s), and \textbf{atomic idempotency reservation}.}
-            \resumeItem{Implemented a per-tool 3-state \textbf{Circuit Breaker} (Closed/Open/Half-Open) and an in-memory \textbf{semantic cache} with TTL and canonicalized key hashing to eliminate redundant tool invocations.}
-            \resumeItem{Enforced hardware resource bounds via POSIX \texttt{ulimit} memory ceilings and process-group \texttt{SIGKILL} management to protect host workers from runaway executions.}
+            \resumeItem{Engineered a cross-lingual NLP pipeline utilizing a \textbf{hybrid CNN-LSTM + Attention} model across English, Bengali, Japanese, and Arabic text streams.}
+            \resumeItem{Solved the long-document context window constraint by building a \textbf{Sliding Window Segmenter} (1,024 tokens), processing text 4x longer than standard transformer limits.}
+            \resumeItem{Leveraged \textbf{LaBSE sentence embeddings} to maintain high cross-lingual semantic fidelity, achieving \textbf{93.31\% accuracy} and outperforming the baseline by 18\%.}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{Codeforces Problem Recommender} $|$ \href{https://github.com/Swapnamoy3/Codeforces-recommender}{\underline{GitHub}} $|$ \emph{Browser Extension \& Scalable State Engine}}{JavaScript, Chrome/Web APIs}
+          {\textbf{Py-Sandbox-Agent} $|$ \href{https://github.com/Swapnamoy3/Py-sandbox-agent}{\underline{GitHub}} $|$ \emph{Autonomous Agentic AI \& Sandboxed Execution}}{Python, Docker, AST, FastAPI}
           \resumeItemListStart
-            \resumeItem{Engineered a competitive programming browser extension using clean \textbf{OOP design patterns} and decoupled background service workers.}
-            \resumeItem{Built a persistent multi-problem timer system using \textbf{browser.alarms}, achieving \textbf{80\% higher accuracy} than standard Date-object polling.}
-            \resumeItem{Implemented smart client-side \textbf{caching} for Codeforces API responses, yielding sub-millisecond (near 0ms) subsequent load times.}
+            \resumeItem{Architected an autonomous \textbf{Agentic AI system} featuring an FSM self-correction loop that parses execution tracebacks and iteratively refines generated code against unit test assertions.}
+            \resumeItem{Enforced strict runtime safety using an \textbf{AST security scanner} (default-deny imports, blocking eval/exec) and \textbf{Docker container isolation} (network-gapped, 256MB memory cap, ulimit).}
+            \resumeItem{Implemented a \textbf{100-slot concurrency pool} with FIFO backpressure queueing, preventing resource exhaustion during peak agent workloads.}
           \resumeItemListEnd
 
     \resumeSubHeadingListEnd
